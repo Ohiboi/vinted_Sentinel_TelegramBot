@@ -1,8 +1,16 @@
 {
-    "token": "your_telegram_bot_token",
-    "channel_id": "your_telegram_chat_id",
-    "search_terms": ["ralph lauren", "nike"],
-    "refresh_delay": 3,
+    "token": "8623619354:AAHlpQf2oxLTLbjNijbnXB_upEs6oPaXE7k",
+    "channel_id": "-4462954262",
+    "search_terms": ["posacenere vetro", "portacenere vetro", "svuotatasche vetro", "centrotavola vetro",
+    "ciotola vetro", "scodella vetro", "vaso vetro", "vaso cristallo", "coppa vetro",
+    "vaso vetro soffiato", "vaso vetro pesante", "posacenere vetro pesante",
+    "vaso vetro anni 70", "vaso vetro anni 60", "vaso vetro fumè",
+    "vaso vetro sommerso", "vaso vetro colorato vintage",
+    "vaso ceramica dipinto a mano", "vaso ceramica firmato",
+    "vaso ceramica anni 70", "vaso ceramica vintage italiano",
+    "vaso maiolica dipinta", "vaso terracotta smaltata",
+    "vaso vetro murano", "posacenere vetro murano"],
+    "refresh_delay": 15,
     "max_images_per_post": 4,
-    "countries": [".de", ".it", ".fr"]
+    "countries": [".it"]
 }
