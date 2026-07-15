@@ -42,6 +42,7 @@ class VintedAPI:
                 headers=self._get_headers(with_auth=True)
             )
             response.raise_for_status()
+            logger.error(f"Status: {response.status_code}, Content: {response.text[:200]}")
             data = response.json()
 
             # Estrazione dell'URL dell'immagine, se disponibile
