@@ -14,9 +14,9 @@ class VintedMonitor:
         self.bot = TelegramBot(config['token'], config['channel_id'])
 
     def is_active_hour(self):
-    ora_attuale = datetime.now().hour
-    # Attivo tra le 9:00 e le 22:00, in pausa di notte
-    return 9 <= ora_attuale < 22
+        ora_attuale = datetime.now().hour
+        # Attivo tra le 9:00 e le 22:00, in pausa di notte
+        return 9 <= ora_attuale < 22
 
     async def start_monitoring(self):
     while True:
