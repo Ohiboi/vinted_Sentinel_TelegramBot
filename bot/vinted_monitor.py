@@ -1,5 +1,6 @@
 import asyncio
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from api.vinted_api import VintedAPI
 from bot.telegram_bot import TelegramBot
 from db.product_database import ProductDatabase
